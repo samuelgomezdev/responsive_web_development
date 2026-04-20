@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Web Development</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+    }
+
+    header p {
+      color: #666;
+      margin-top: 8px;
+    }
+
+    .menu {
+      list-style: none;
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .menu li {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .menu li:hover {
+      transform: translateY(-3px);
+    }
+
+    .menu li a {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 24px;
+      text-decoration: none;
+      color: #2c3e50;
+    }
+
+    .menu li a .numero {
+      background-color: #2c3e50;
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.9rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .menu li a .info .titulo {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .menu li a .info .descricao {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 2px;
+    }
+
+    /* combinador: li que contém link com classe .destaque */
+    .menu li a.destaque .numero {
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Web Development</h1>
+    <p>Univali — Exercícios práticos de desenvolvimento web</p>
+  </header>
+
+  <ul class="menu">
+    <li>
+      <a href="aula01-lobo/">
+        <span class="numero">01</span>
+        <span class="info">
+          <span class="titulo">Lobo</span>
+          <span class="descricao">HTML básico: imagem, parágrafo e link</span>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="aula02-float/">
+        <span class="numero">02</span>
+        <span class="info">
+          <span class="titulo">Posicionamento Float</span>
+          <span class="descricao">Layout com float, clear e box-sizing</span>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="aula03-seletores-css/">
+        <span class="numero">03</span>
+        <span class="info">
+          <span class="titulo">Seletores CSS</span>
+          <span class="descricao">Classes, IDs, pseudo-classes e especificidade</span>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="forum-tematico/">
+        <span class="numero">FT</span>
+        <span class="info">
+          <span class="titulo">Fórum Temático — Carta do Leitor</span>
+          <span class="descricao">Layout editorial com CSS avançado e ul/li</span>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="unidade-aprendizagem/">
+        <span class="numero">UA</span>
+        <span class="info">
+          <span class="titulo">Unidade de Aprendizagem — Estados e Cidades</span>
+          <span class="descricao">Select dinâmico com AJAX e PHP</span>
+        </span>
+      </a>
+    </li>
+  </ul>
+
+</body>
+</html>
