@@ -11,7 +11,8 @@ responsive_web_development/
 ├── aula02-float/               → Posicionamento com float e clear
 ├── aula03-seletores-css/       → Seletores CSS: classes, IDs, pseudo-classes
 ├── forum-tematico/             → Fórum Temático: Carta do Leitor
-└── unidade-aprendizagem/       → Unidade de Aprendizagem: Estados e Cidades
+├── unidade-aprendizagem/       → Unidade de Aprendizagem: Estados e Cidades
+└── calculadora/                → Calculadora Espacial: JS, CSS e HTML
 ```
 
 ## Páginas
@@ -40,6 +41,10 @@ Uso de `ul` e `li` para estruturação semântica de uma carta.
 ### Unidade de Aprendizagem — Estados e Cidades
 Select dinâmico com carregamento via AJAX (XMLHttpRequest).
 Backend em PHP retornando JSON com cidades por estado.
+
+### Calculadora Espacial
+Calculadora com tema espacial: estrelas animadas, planeta, astronauta flutuante, sons e efeitos neon.
+[Ver página](https://samuelgomezdev.github.io/responsive_web_development/calculadora/)
 
 ## Deploy (GitHub Pages)
 https://samuelgomezdev.github.io/responsive_web_development/
