@@ -1,0 +1,43 @@
+h1, p{
+    border: 1px solid blue;
+    background-color: aquamarine;
+}
+
+p{
+    font-weight: 600;
+    font-style: italic;
+}
+
+div{
+    text-decoration: none;
+    border: 1px solid white;
+    color: White;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color: #067906;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    /* box-shadow: 3px 3px 3px black; */
+}
+
+div:hover{
+    color: #067906;
+    background-color: white;
+    border: 1px solid #067906;
+}
+
+.meu-btn-laranja{
+    background-color: orange !important;
+}
+
+.meu-btn-laranja:hover{
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+}
+
+#meu-id{
+    font-family: 'Times New Roman', Times, serif;
+}
